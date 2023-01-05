@@ -33,7 +33,7 @@ A Terraform module to provision [Gandi] with DNS records for [FastMail*].
 
 ```tf
 module "fastmail-records" {
-  source = "michaelcontento/terraform-gandi-fastmail-records"
+  source = "michaelcontento/fastmail-records/gandi"
 
   domain = "example.com"
 }
